@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment 3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstarp css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/e97116a5c4.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!----------------------
+        header part start 
+    ------------------------->
+    <header class="bg-header pb-6">
+        <!------------------ manu part start ---------------->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container p-3 w-75">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav fw-bold">
+                        <a class="nav-link active p-4 text-light" aria-current="page" href="#">Home</a>
+                        <a class="nav-link p-4 text-light" href="#">Shop</a>
+                        <a class="nav-link p-4 text-light" href="#">News</a>
+                        <a class="nav-link p-4 text-light" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav nav-pills me-5">
+                <li class="nav-item">
+                    <a href="#" class="btn btn-custom text-light">Login</a>
+                </li>
+            </ul>
+        </nav>
+        <!----------------- manu part end --------------------->
+        <!--------------- slider part start -------------------->
+        <section class="container pt-5">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-md-6 ps-5">
+                    <p class="mt-4 text-light">Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="fw-bold text-light">Honda CBR 300R</h1>
+                    <p class="mb-4 mt-3 text-light">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit <br> mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Purchase
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Hello, I am Tayeb</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Thank You Programming-Hero
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Understood</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 pt-3 ps-5">
+                    <img src="images/header-bike.png" alt="" width="70%">
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </section>
+        <!------- slider part end----------------->
+    </header>
+    <!------------------------
+        header part close 
+    -------------------------->
+    <!-----------------------
+        main part start
+    --------------------------->
+    <main>
+        <!---------Fetured Bikes section start------------->
+        <section class="container">
+            <div class="mt-5">
+                <h1 class="d-flex justify-content-center">Fetured Bikes 2021</h1>
+                <p class="text-tayeb d-flex justify-content-center pb-5">Best bike collection</p>
+                <div class="row d-flex justify-content-center mt-5 ms-2">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="images/header-bike.png" class="img-1" width="75%" alt="...">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="images/header-bike.png" class="img-2 " width="75%" alt="...">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="images/header-bike.png" class="img-1 " width="75%" alt="...">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </section>
+        <!--------Fetured Bikes section close------------->
+
+        <!--------Latest News section start--------------->
+        <section class="container">
+            <h1 class="pt-5  d-flex justify-content-center">Latest News</h1>
+            <div class="row gx-5 mt-5 mx-4">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card p-3" style="width: 18rem;">
+                        <img src="images/bike-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                            <a href="#" class="btn btn-custom">Go somewhere</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card p-3" style="width: 18rem;">
+                        <img src="images/bike-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Motorcycles & Scooters</h5>
+                            <p class="card-text">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                            <a href="#" class="btn btn-custom">Go somewhere</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="card p-3" style="width: 18rem;">
+                        <img src="images/bike-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">2021 Honda CBR500R</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-custom">Go somewhere</a>
+                            <style>
+                                .btn-custom{
+                                    background-color:#E76F51;
+                                    color: white;
+                                }
+                            </style>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </section>
+        <!-----------Latest News section close-------------->
+
+        <!----------- testimonials-card section start ------------>
+        <section class="container">
+            <div class="mt-5 mb-5">
+                <div class="d-flex justify-content-center">
+                    <h1 class="text-custom">Happy<span class="text-tayeb"> Clients Says</span> </h1>
+                </div>
+                <div class="d-flex align-items-center justify-content-center mt-5">
+                    <div class="row w-75 d-flex align-items-center justify-content-center gx-3 gy-3">
+                        <div class=" col-lg-4  col-sm-12 justify-content-center" >
+                            <div class=" card p-2" style= "width: 90%;";>
+                                <div class="d-flex justify-content-center align-content-center">
+                                    <img src="images/user-1.png" alt="" width="50%">
+                                </div>
+                                <div>
+                                    <p style= "text-align: center";>
+                                        Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                                    </p>
+                                </div>
+                                    <div class="d-flex justify-content-center text-tayeb">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="d-flex justify-content-center text-regina mt-2">
+                                        <h6>Regina Miles</h6>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <h6>Banker</h6>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4  col-sm-12 justify-content-center" >
+                            <div class="card p-2"  style= "width: 90%;";>
+                                <div class="d-flex justify-content-center align-content-center">
+                                    <img src="images/user-1.png" alt="" width="50%">
+                                </div>
+                                <div>
+                                    <p style= "text-align: center";>
+                                        Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                                    </p>
+                                </div>
+                                    <div class="d-flex justify-content-center text-tayeb">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="d-flex justify-content-center text-regina mt-2">
+                                        <h6>Regina Miles</h6>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <h6>Banker</h6>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4   col-sm-12 justify-content-center">
+                            <div class="card p-2"  style= "width: 90%;";>
+                                <div class="d-flex justify-content-center align-content-center">
+                                    <img class="rounded-circle" src="images/user-3.jpg" alt="" width="50%">
+                                </div>
+                                <div>
+                                    <p style= "text-align: center";>
+                                        Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                                    </p>
+                                </div>
+                                    <div class="d-flex justify-content-center text-tayeb">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="d-flex justify-content-center text-regina mt-2">
+                                        <h6>Regina Miles</h6>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <h6>Banker</h6>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </section>
+        <!-----------testimonials-card section  close-------------->
+
+        <!----------- Accordion/ Last section start ------------>
+        <section class="container">
+            <div class="mt-5 mb-5">
+                <div class="d-flex justify-content-center">
+                    <h1 class="text-custom">Frequently Asked<span class="text-tayeb"> Questions</span> </h1>
+                </div>
+                <div class="row mt-5 d-flex align-items-center justify-content-center">
+                    <div class="col-md-6 mt-5" style="height: 650px;">
+                        <img src="images/faq.png" alt="" width="70%">
+                    </div>
+                    <div class="col-md-6 Accordion-h">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item mb-3 borders" style=" border: #D5E5FB solid; border-radius: 5px;">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    What are the most important things I should
+                                    know about riding a bike?
+                                </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all traffic signals, signs,   and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3 borders" style=" border: #D5E5FB solid; border-radius: 5px;">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    How can I tell if my helmet is old and I need a 
+                                    new one?
+                                </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Bear in mind that if the helmet did its job most people would tell you that they did not even hit their head, or did not hit their head that hard. And the thin shells on most helmets now tend to hide any dents in the foam. But if you can see marks on the shell or measure any foam crush at all, replace the helmet
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3 borders" style=" border: #D5E5FB solid; border-radius: 5px;">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">The bottom line: Leaving your bike outside for a day or two won't do major damage. You may see signs of rust after a week of neglect. After one month in bad conditions, your beloved bike parts will start to degrade
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3 borders" style=" border: #D5E5FB solid; border-radius: 5px;>
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                    What rules should I follow when riding my bike?
+                                </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the  though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----------- Accordion/ Last section close ------------>
+
+    </main>
+    <!-----------------------
+        main part close
+    --------------------------->
+
+    <!-----------------------
+        footer part start
+    --------------------------->
+    <footer class="container-fluid bg-footer">
+        <br>
+        <br>
+        <br>
+        <section class=" container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-9">
+                    <div class="d-flex justify-content-start h-25">
+                        <a class="nav-link   text-light" href="#">Download Now</a>
+                        <a class="nav-link  text-light" href="#">License</a>
+                    </div>
+                    <div class="d-flex justify-content-start h-25">
+                        <a class="nav-link text-light" href="#">About</a>
+                        <a class="nav-link text-light" href="#">Features</a>
+                        <a class="nav-link text-light" href="#">Pricing</a>
+                        <a class="nav-link text-light" href="#">Careers</a>
+                        <a class="nav-link text-light" href="#">Help</a>
+                    </div>
+                    <div class="text-light h-25">
+                        <p class="ms-2">©2020 bike. All rights reserved</p>
+                    </div>
+                </div>
+    
+                <div class="col-sm-12 col-lg-3">
+                    <div class="text-light ms-4 mt-3">
+                        <h5>Get the App</h5>
+                    </div>
+                    <div class="h-50">
+                        <div class="h-25">
+                            <a href="#">                            
+                                <img src="images/appl apps.png" width="40%"   alt="">
+                            </a>
+                        </div>
+                        <div class="h-25">
+                            <a href="#">
+                                <img href="#" src="images/googl.png" width="40%"  alt="">
+                            </a>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+    </footer>
+    <!-----------------------
+        main part close
+    --------------------------->
+
+    <!-- bootstarp js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
